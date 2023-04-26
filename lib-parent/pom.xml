@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.4</version>
+        <version>3.0.6</version>
         <relativePath />
     </parent>
     <groupId>com.augustine.jts</groupId>
@@ -22,8 +22,8 @@
         </developer>
     </developers>
     <properties>
-        <spring-cloud.version>2021.0.1</spring-cloud.version>
-        <jgit.version>5.10.0.202012080955-r</jgit.version>
+        <spring-cloud.version>2022.0.2</spring-cloud.version>
+        <jgit.version>6.5.0.202303070854-r</jgit.version>
     </properties>
     <dependencyManagement>
         <dependencies>

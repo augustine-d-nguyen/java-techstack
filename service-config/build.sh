@@ -3,7 +3,7 @@
 set -e
 
 # - Cfg.
-IMG_NAME=jts/config-service:latest
+IMG_NAME=jts-config-service:latest
 
 # - Build jar
 echo "build jar"

@@ -3,7 +3,7 @@
 set -e
 
 # - Cfg.
-IMG_NAME=jtt/git-service:latest
+IMG_NAME=jts-git-service:latest
 
 # - Test file existence.
 if test -f "./Dockerfile"; then

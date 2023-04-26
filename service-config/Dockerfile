@@ -1,4 +1,4 @@
-FROM openjdk:8u322-oracle AS init-stage
+FROM openjdk:20-ea-35-slim AS init-stage
 LABEL jts_config_img__stage=init
 WORKDIR /jars
 COPY ./target/*.jar ./serv.jar
@@ -7,7 +7,7 @@ COPY ./init.sh ./init.sh
 RUN chmod +x ./init.sh
 
 
-FROM openjdk:8u322-oracle
+FROM openjdk:20-ea-35-slim
 ENV PORT=8080
 WORKDIR /jars
 COPY --from=init-stage /jars/ ./

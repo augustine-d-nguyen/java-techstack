@@ -71,7 +71,7 @@ services:
           cpus: '0.05'
   jts_git:
     container_name: jts_git
-    image: jts/git-service:latest
+    image: jts-git-service:latest
     hostname: jts_git
     ports:
       - 2222:2222
@@ -95,7 +95,7 @@ services:
           cpus: '0.05'
   jts_config:
     container_name: jts_config
-    image: jts/config-service:latest
+    image: jts-config-service:latest
     hostname: jts_config
     ports:
       - 6001:8080
